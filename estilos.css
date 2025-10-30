@@ -1,0 +1,134 @@
+  body {
+      background: linear-gradient(135deg, #f9f7fc, #e6e2f0);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #4b3f72;
+      padding: 20px;
+      max-width: 750px;
+      margin: 30px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(75, 63, 114, 0.15);
+    }
+    h1 {
+      color: #6a4a8a;
+      text-align: center;
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    h2 {
+      color: #7a639c;
+      border-left: 4px solid #b9a1d4;
+      padding-left: 10px;
+      margin-top: 30px;
+      font-weight: 600;
+      font-size: 1.4rem;
+    }
+    .section {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px 20px;
+      margin-top: 12px;
+      box-shadow: 0 3px 8px rgba(105, 88, 148, 0.1);
+    }
+    /* Degradado en texto para párrafos y listas */
+    p, li {
+      font-size: 1rem;
+      line-height: 1.5;
+      background: linear-gradient(45deg, #ff6fa3, #8e44ad, #3498db);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .referentes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    .referente {
+      text-align: center;
+      width: 200px;
+    }
+    .referente strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #836fa9;
+      font-weight: 600;
+    }
+    img {
+      width: 180px;
+      height: 240px; /* altura fija para igualar */
+      object-fit: cover; /* recorta sin deformar */
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(105, 88, 148, 0.3);
+      border: 3px solid transparent;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+      cursor: pointer;
+      filter: drop-shadow(0 0 6px #b967c9);
+    }
+    img:hover {
+      transform: scale(1.1) rotate(2deg);
+      box-shadow: 0 12px 30px rgba(136, 78, 204, 0.6);
+      border-color: #a45bcc;
+      filter: drop-shadow(0 0 12px #a45bcc);
+    }
+
+
+   /* === Estilo bonito para la tabla de horario === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(105, 88, 148, 0.15);
+}
+
+thead {
+  background: linear-gradient(90deg, #b9a1d4, #8e44ad);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+th {
+  font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f7fc;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2ecfa;
+}
+
+tbody td {
+  color: #4b3f72;
+  transition: all 0.25s ease-in-out;
+}
+
+/* Efecto hover */
+tbody tr:hover {
+  background: linear-gradient(90deg, #f7e6ff, #e3d4f9);
+  transform: scale(1.01);
+}
+
+/* Espacio visual con el resto del contenido */
+table {
+  margin-bottom: 30px;
+}
